@@ -7,8 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint'
   ],
   hub: {
-    database: true,
-    kv: true
+    database: true  
   },
   ui: {
     icons: ['heroicons', 'simple-icons']
